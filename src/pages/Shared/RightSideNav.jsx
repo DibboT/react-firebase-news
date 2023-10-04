@@ -23,15 +23,15 @@ const RightSideNav = () => {
             <div className="p-4 space-y-3 mb-6">
                 <h2 className="text-1xl">Find Us</h2>
 
-                <a className="gap-2 flex items-center text-[#4267B2]" href="">
+                <a className="gap-2 flex items-center border rounded-b-lg text-[#4267B2]" href="">
                     <FaFacebook></FaFacebook>
                     <span>Facebook</span>
                 </a>
-                <a className="gap-2 flex items-center text-[#F56040]" href="">
+                <a className="gap-2 flex items-center border rounded-b-lg text-[#F56040]" href="">
                     <FaInstagram></FaInstagram>
                     <span>Instagram</span>
                 </a>
-                <a className="gap-2 flex items-center text-[#1DA1F2]" href="">
+                <a className="gap-2 flex items-center border rounded-b-lg text-[#1DA1F2]" href="">
                     <FaTwitter></FaTwitter>
                     <span>Twitter</span>
                 </a>
@@ -45,7 +45,7 @@ const RightSideNav = () => {
 
             </div>
             {/* Q Zone*/}
-            <div className="p-4 space-y-3">
+            <div className="p-4 space-y-3 border-t-lg bg-base-100">
                 <h2 className="text-1xl">Q Zone</h2>
                 <img src={qZone1} alt=''/>
                 <img src={qZone2} alt=''/>
