@@ -3,10 +3,10 @@ import logo from '../../assets/logo.png'
 
 const Header = () => {
     return (
-        <div>
-            <img src={logo} alt=""/>
+        <div className="text-center">
+            <img className="mx-auto" src={logo} alt=""/>
             <p>Journalism Without Fear or Favour</p>
-            <p>{moment().format("dddd, MMMM D YYYY, h:mm:ss a")}</p>
+            <p>{moment().format("dddd, MMMM D, YYYY, h:mm A")}</p>
         </div>
     );
 };
